@@ -1,9 +1,10 @@
 import React from 'react';
-
+import TextEditor from './../components/editor/Editor'
+import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 function Home() {
   return (
     <div className='home'>
-      <h1>Home</h1>
+      <TextEditor/>
     </div>
   );
 }
