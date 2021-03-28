@@ -12,7 +12,7 @@
   }
 
   .searchbar-div {
-    width: 60%;
+    width: 70%;
   }
 
   .searchbar {
@@ -28,8 +28,22 @@
 
   .invite-member {
     display: flex;
-    width: 12%;
+    /* width: 12%; */
     align-items: center;
+  }
+
+  .profile-div {
+    width: 5%;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+
+  .profile-pic {
+    width: 100%;
+  }
+
+  .header-part {
+    display: flex;
   }
   
   .menu-bars {
@@ -68,7 +82,7 @@
     /* display: flex; */
     /* justify-content: center; */
     position: fixed;
-    top: 5rem;
+    top: 7rem;
     left: -100%;
     transition: 850ms;
   }
